@@ -1,0 +1,40 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border-bottom: 5px solid #0B78AF;
+    position: sticky; top: 0;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)) ,url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+    
+header form input{
+    width: 100%;
+    border-color: white;
+}
+
+.container .button1{
+    border-color: white;
+}
+
+.container .button2{
+    border-color: black;
+}
+
+.pasion{
+    width: calc(100% - 12px);
+}
+
+@media (max-width: 768px){
+.modal-dialog{
+    width: 470px;
+    }
+}
